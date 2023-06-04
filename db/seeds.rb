@@ -14,7 +14,7 @@ end
     platform: Faker::Game.platform,
     price: rand(0..60) # random number between 0 and 60
   )
-  
+
   # create between 1 and 5 reviews for each game
   rand(1..5).times do
     # get a random user for every review
